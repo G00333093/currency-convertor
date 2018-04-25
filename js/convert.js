@@ -1,3 +1,4 @@
+//changes to pounds
 function euroToPounds(){
 
   var amount = parseInt(document.getElementById("pounds").value);
@@ -8,8 +9,14 @@ function euroToPounds(){
   document.getElementById("resultsentence").innerHTML = message;
 
 }
-//changes to pounds
-
+// this is part c, 
+ if(!amount)   
+	alert("please enter a value into input field ");
+	else if ( amount < 0 || amount > 100000)
+	alert("Please enter a value greater than 0 ");
+	
+	
+	
 //chagnge to dollars
 function euroToDollar(){
 
