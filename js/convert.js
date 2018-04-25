@@ -8,6 +8,9 @@ function euroToPounds(){
   document.getElementById("resultsentence").innerHTML = message;
 
 }
+//changes to pounds
+
+//chagnge to dollars
 function euroToDollar(){
 
   var amount = parseInt(document.getElementById("dollars").value);
@@ -18,6 +21,8 @@ function euroToDollar(){
   document.getElementById("resultsentence").innerHTML = message;
 
 }
+
+// change to yen
 function euroToJapaneseYen(){
 
   var amount = parseInt(document.getElementById("japaneseyen").value);
@@ -28,6 +33,8 @@ function euroToJapaneseYen(){
   document.getElementById("resultsentence").innerHTML = message;
 
 }
+
+// change to nitcoin
 function euroToBitcoin(){
 
   var amount = parseInt(document.getElementById("bitcoin").value);
